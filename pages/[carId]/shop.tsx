@@ -1,11 +1,6 @@
 import React from "react"
-import { Block, Text } from "vcc-ui"
+import CommingSoon from "../../src/components/CommingSoon"
 
 export default function ShopPage() {
-  return (
-    <Block>
-      <Text>Hello world!</Text>
-      <Text>This is ShopPage</Text>
-    </Block>
-  )
+  return <CommingSoon />
 }
