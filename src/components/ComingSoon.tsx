@@ -1,7 +1,7 @@
 import React from "react"
 import { Block, Link, Spacer, Text, View } from "vcc-ui"
 
-export default function CommingSoon() {
+export default function ComingSoon() {
   return (
     <View>
       <Block extend={{ textAlign: "center", margin: "20px" }}>

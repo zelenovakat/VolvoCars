@@ -2,7 +2,7 @@ import React, { useState, useMemo } from "react"
 import CarBlock from "./CarBlock"
 import { CarsPropsType } from "./Cars.types"
 import { Carousel, CarouselItem } from "../Carousel"
-import Filter from "../Filter"
+import Filter from "./Filter"
 
 function Cars({ cars }: CarsPropsType) {
   const [bodyTypeFilter, setBodyTypeFilter] = useState("")

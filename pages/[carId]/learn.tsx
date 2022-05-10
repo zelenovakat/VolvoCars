@@ -1,6 +1,6 @@
 import React from "react"
-import CommingSoon from "../../src/components/CommingSoon"
+import ComingSoon from "../../src/components/ComingSoon"
 
 export default function LearnPage() {
-  return <CommingSoon />
+  return <ComingSoon />
 }

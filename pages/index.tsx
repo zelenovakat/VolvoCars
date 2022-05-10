@@ -14,9 +14,7 @@ function MainPage() {
 
   return (
     <div>
-      <div>
-        <Cars cars={carItems} />
-      </div>
+      <Cars cars={carItems} />
     </div>
   )
 }
